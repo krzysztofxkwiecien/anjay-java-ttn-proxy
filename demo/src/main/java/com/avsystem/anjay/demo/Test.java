@@ -27,9 +27,9 @@ public class Test {
         // NOTE: for some reason Logger.getLogger("") returns more "global"
         // loger than Logger.getGlobal() is.
         Logger logger = Logger.getLogger("");
-        logger.setLevel(Level.FINEST);
+        logger.setLevel(Level.FINE);
         for (Handler handler : logger.getHandlers()) {
-            handler.setLevel(Level.FINEST);
+            handler.setLevel(Level.FINE);
         }
 
         DemoArgs args = new DemoArgs();
@@ -48,6 +48,11 @@ public class Test {
 
         Thread thread = new Thread(new DemoClient(args));
         thread.start();
+
+        Thread mqttThread = new MqttThread();
+        mqttThread.start();
+
         thread.join();
+        mqttThread.join();
     }
 }

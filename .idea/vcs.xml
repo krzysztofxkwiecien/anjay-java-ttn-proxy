@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/anjay" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/anjay/deps/avs_commons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/anjay/tests/integration/framework/nsh-lwm2m/powercmd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/anjay/tests/integration/framework/nsh-lwm2m/pymbedtls/src/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/anjay/tests/integration/framework/nsh-lwm2m/pymbedtls/src/pybind11/tools/clang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/jni.hpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native-library/deps/mbedtls" vcs="Git" />
+  </component>
+</project>

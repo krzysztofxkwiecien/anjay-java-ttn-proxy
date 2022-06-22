@@ -408,14 +408,14 @@ public final class DemoCommands {
     class PressButtonCmd implements DemoCommand {
         @Override
         public void apply(String[] args) throws Exception {
-            demoClient.pressButton();
+            //demoClient.pressButton();
         }
     }
 
     class ReleaseButtonCmd implements DemoCommand {
         @Override
         public void apply(String[] args) throws Exception {
-            demoClient.releaseButton();
+            //demoClient.releaseButton();
         }
     }
 

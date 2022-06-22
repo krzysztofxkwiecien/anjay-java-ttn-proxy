@@ -29,7 +29,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 public final class DemoObject implements AnjayObject {
-    private Optional<Integer> intValue = Optional.empty();
+    private Optional<Integer> intValue = Optional.of(5);
     private Optional<Long> longValue = Optional.empty();
     private Optional<Float> floatValue = Optional.empty();
     private Optional<Double> doubleValue = Optional.empty();
