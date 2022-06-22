@@ -277,3 +277,6 @@ CMakeDoxygenDefaults.cmake
 CPackConfig.cmake
 CPackSourceConfig.cmake
 library/.cxx/
+
+# Project exclude paths
+/build
